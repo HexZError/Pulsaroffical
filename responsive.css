@@ -1,0 +1,104 @@
+@media screen and (max-width:1200px){
+    /* navbar section */
+    #navbar{
+        flex-wrap: wrap;
+    }
+    #navbar > img{
+        display: none;
+    }
+    /* home section */
+    #home{
+       flex-wrap: wrap-reverse;
+    }
+    #home img{
+        height: 300px;
+        margin-top: 100px;
+    }
+    #home::before{
+        width: 100vw;
+    }
+    /* home down section */
+    #home-down-section{
+        flex-wrap: wrap;
+    }
+    .bike-info p{
+        padding: 0rem 2rem 0rem 0rem;
+    }
+
+    /* card section */
+    #card{
+        padding: 0;
+    }
+    .card1{
+        margin-top: 50px;
+    }
+    /* services section */
+    #service{
+        flex-wrap: wrap;
+    }
+    .service-text{
+        margin-top: 50px;
+    }
+    .service-img img{
+        height: 300px;
+        margin-left: 40px;
+        padding: 20px;
+    }
+    /* footer section */
+    .footer-other{
+        flex-wrap: wrap;
+    }
+    .footer-heading{
+        margin-bottom: 10px;
+    }
+    .footer-social-icon{
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width:526px){
+    /* navbar section */
+    #navbar ul{
+        height: 0.2vh;
+    }
+    #navbar ul img{
+        width: 0.5rem;
+    }
+    #navbar ul li{
+        font-size:0.6rem;
+    }
+    /* home section */
+    #home img{
+        height: 200px;
+    }
+    #home::before{
+        height: 125vh;
+    }
+    
+    /* home down section */
+    .bike-info{
+        display: block;
+    }
+    .bike-info p{
+        padding: 20px;
+        margin-left: 70px;
+    }
+    #home-down-section{
+        display: block;
+        margin-left: 50px;
+    }
+    #home-icons{
+        margin-left: 30px;
+    }
+    /* card section */
+    #card{
+        margin-top: 0px;
+    }
+    /* service section */
+    .service-img img{
+        height: 200px;
+        margin-left: 10px;
+        padding: 10px;
+    }
+    /* footer section */
+}
